@@ -38,6 +38,13 @@ function App() {
       },
       body: JSON.stringify(product),
     });
+
+  // 3-Carregamento dinamico
+  const addedProduct = await res.json();
+  setProducts((prevProducts) => [...prevProducts, addedProduct]);
+  setName("");
+  setPrice("");
+
   };
 
   return (

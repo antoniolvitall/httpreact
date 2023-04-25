@@ -19,6 +19,16 @@
       "name": "halls",
       "price": "3",
       "id": 4
+    },
+    {
+      "name": "teclado",
+      "price": "290",
+      "id": 5
+    },
+    {
+      "name": "teclado",
+      "price": "290",
+      "id": 6
     }
   ]
 }
