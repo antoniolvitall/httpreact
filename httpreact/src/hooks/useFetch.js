@@ -16,7 +16,7 @@ export const useFetch = (url) => {
                 headers: {
                     "Content-type": "application/json"
                 },
-                body: JSON.stringify(data)
+                body: JSON.stringify(data),
             });
 
             setMethod(method);
@@ -41,7 +41,7 @@ export const useFetch = (url) => {
                 let fetchOptions = [url, config];
                 const res = await fetch (...fetchOptions);
                 const json = await res.json();
-                setCallFetch(json)
+                setCallFetch(json);
             };
         };
         httpRequest();
