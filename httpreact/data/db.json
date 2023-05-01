@@ -16,9 +16,14 @@
       "price": 29.9
     },
     {
+      "id": 4,
       "name": "halls",
-      "price": "3",
-      "id": 4
+      "price": "3"
+    },
+    {
+      "id": 5,
+      "name": "mentos",
+      "price": "2"
     }
   ]
 }
